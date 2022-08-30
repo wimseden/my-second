@@ -55,7 +55,7 @@ flex-wrap:wrap;
 width:50%;
 justify-content: center;
 align-items:center;
-padding:0 2%;
+padding:100px 2%;
 }
 #container  .text{
 
@@ -114,13 +114,14 @@ a{
 #fifth{
     display:flex;
     flex-wrap:wrap;
-    flex-direction:column;
+    flex-direction:row;
+    justify-content:space-between;
     height:128px;
     border-radius:15px;
     width:80%;
     text-align:left;
     padding-left:60px;
-    padding-top:30px;
+    padding-top:75px;
     background-color:#3882F6;
     color:#E5E7EB;
     font-weight:700;
@@ -128,13 +129,17 @@ a{
 }
 #fifth.call{
     display:flex;
-    flex-direction:row;
+    padding-top:54px;
+
 }
 #fifth p.call{
     font-weight:500;
     font-size:16px;
+    margin-top:-4px;
 }
 .signup{
+    display:flex;
+    flex-direction:column;
     background-color:#3882F6;
     border: 1.5px solid white;
     border-radius:5px;
@@ -143,6 +148,8 @@ a{
     text-align:center;
     justify-content: center;
     align-items: center;
+    margin-top:20px;
+    margin-right:75px;
     }
 #footer{
     background-color:#1F2937;
